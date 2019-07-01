@@ -1,13 +1,13 @@
 ::-moz-selection {
-    background-color: #fff;
+    background-color: #f9f9ff;
     color: #8f22fe;
 }
 ::selection {
-    background-color: #fff;
+    background-color: #f9f9ff;
     color: #8f225e;
 }
 ::-webkit-input-placeholder {
-    color: #fff;
+    color: #222;
     font-weight: 300;
 }
 :-moz-placeholder {
@@ -172,7 +172,7 @@ td, th {
 .text-left {
     text-align: left;
 }
-.text-rigth {
+.text-right {
     text-align: right;
 }
 .flex {
@@ -909,55 +909,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 .search-course-area .details-content {
     margin-top: 50px;
 }
-.search-course-area .details-content .single-detials span {
+.search-course-area .details-content .single-details span {
     color: #228f85;
     font-size: 30px;
 }
-.search-course-area .details-content .single-detials h4 {
+.search-course-area .details-content .single-details h4 {
     margin: 5px 0px;
     color: #fff;
 }
-.search-course-area .details-content .single-detials p {
+.search-course-area .details-content .single-details p {
     margin-bottom: 0px;
 }
 @media (max-width: 991px) and (min-width: 768px) {
-    .search-course-area .details-content .single-detials h4 {
+    .search-course-area .details-content .single-details h4 {
     font-size: 12px;
 }
-}.active-upcoming-event-carusel .owl-dots {
-    display: inline-grid;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    left: 101%;
-    top: 40%}
-.active-upcoming-event-carusel .owl-dot {
-    height: 10px;
-    width: 10px;
-    display: inline-block;
-    background: rgba(127, 127, 127, 0.5);
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
 }
-.active-upcoming-event-carusel .owl-dot.active {
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    background: #228f85;
-}
-@media (max-width: 1024px) {
-    .active-upcoming-event-carusel .owl-controls {
-    display: none;
-}
-}@media (max-width: 576px) {
+@media (max-width: 576px) {
     .single-carusel {
     margin: 15px;
 }
@@ -978,16 +946,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     width: 100%}
-.single-carusel .detials h4 {
+.single-carusel .details h4 {
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-.single-carusel .detials h4:hover {
+.single-carusel .details h4:hover {
     color: #228f85;
 }
-.single-carusel .detials p {
+.single-carusel .details p {
     margin-top: 20px;
 }
 .single-carusel:hover .thumb img {
@@ -1063,7 +1031,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 10px;
 }
 .single-footer-widget ul li a {
-    color: #777 !important;
+    color: #fff !important;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1161,3 +1129,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: rgba(4, 9, 30, 0.2);
 }
 
+.search-course-input{
+    line-height: 34px;
+    font-weight: 500;
+    width: 50%;
+    padding: 5px;
+    border: none;
+}

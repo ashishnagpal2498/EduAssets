@@ -31,20 +31,7 @@ $(document).ready(function() {
         }
     });
 
-    $('.play-btn').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-
-    //------- Datepicker  js --------//  
-
-      $( function() {
-        $( "#datepicker" ).datepicker();
-        $( "#datepicker2" ).datepicker();
-      } );
+   
 
 
     //------- Superfist nav menu  js --------//  
@@ -56,31 +43,7 @@ $(document).ready(function() {
         speed: 400
     });
 
-    /* ---------------------------------------------
-     accordion
-     --------------------------------------------- */
-
-    var allPanels = $(".accordion > dd").hide();
-    allPanels.first().slideDown("easeOutExpo");
-    $(".accordion").each(function() {
-        $(this).find("dt > a").first().addClass("active").parent().next().css({
-            display: "block"
-        });
-    });
-
-
-     $(document).on('click', '.accordion > dt > a', function(e) {
-
-        var current = $(this).parent().next("dd");
-        $(this).parents(".accordion").find("dt > a").removeClass("active");
-        $(this).addClass("active");
-        $(this).parents(".accordion").find("dd").slideUp("easeInExpo");
-        $(this).parent().next().slideDown("easeOutExpo");
-
-        return false;
-
-    });
-
+    
     //------- Tabs Js --------//  
     if (document.getElementById("horizontalTab")) {
 
@@ -119,48 +82,7 @@ $(document).ready(function() {
         }
     });
 
-    $('.active-upcoming-event-carusel').owlCarousel({
-        items:2,
-        margin: 30,
-        loop:true,
-        dots: true,
-        autoplayHoverPause: true,
-        smartSpeed:650,         
-        autoplay:true,      
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            992: {
-                items: 2,
-            }
-        }
-    });
-
-
-    $('.active-review-carusel').owlCarousel({
-        items:2,
-        margin: 30,
-        loop:true,
-        dots: true,
-        autoplayHoverPause: true,
-        smartSpeed:650,         
-        autoplay:true,      
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            }
-        }
-    });
+    
 
     //------- Mobile Nav  js --------//  
 

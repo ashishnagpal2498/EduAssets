@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #edeff0;
+    background-color:#228f85;
 }
 
 #showcase{
     min-height: 300px;
-    background-image: url(aboutusbackground.png);
+   background-color:  rgba(4, 9, 30, 0.8);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -75,7 +75,7 @@ body{
 /* our-team */
 
 #faq{
-    background-color: white;
+    background-color:   rgba(4, 9, 30, 0.8);
 
 }
 
@@ -84,6 +84,7 @@ body{
     border-bottom: 1px solid rgba(0,0,0,.1);
     margin-bottom: 30px;
     text-align: center;
+    color: white;
 }
 
 .faq{
@@ -97,7 +98,7 @@ body{
 
 .faq .q{
     font-style: italic;
-    color: #55C18F;
+    color: #228f85;
     font-weight: bold;
 }
 
